@@ -32,6 +32,21 @@ img {
   width: 80%;
 }
 
+.btn {
+  background: transparent;
+  border: 2px solid hsl(160, 55%, 55%);
+  color: hsl(0, 0%, 85%);
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  letter-spacing: 0.3rem;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
